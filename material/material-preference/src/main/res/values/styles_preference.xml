@@ -82,4 +82,8 @@
         <item name="android:widgetLayout">@layout/m3_preference_widget_material_switch</item>
     </style>
 
+    <style name="Preference.Rikka.MaterialComboBoxPreference" parent="Preference.Rikka.Material3">
+        <item name="android:widgetLayout">@layout/m3_preference_widget_material_combo_box</item>
+    </style>
+
 </resources>
