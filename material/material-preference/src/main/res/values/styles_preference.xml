@@ -24,7 +24,7 @@
         <item name="switchPreferenceStyle">@style/Preference.Rikka.SwitchPreference.Material3</item>
         <item name="seekBarPreferenceStyle">@style/Preference.Rikka.SeekbarPreference.Material3</item>
         <item name="simpleMenuPreferenceStyle">@style/Preference.Rikka.SimpleMenuPreference.Material3</item>
-        <item name="materialSwitchPreferenceStyle">@style/Preference.Rikka.MateriaSwitchPreference</item>
+        <item name="materialSwitchPreferenceStyle">@style/Preference.Rikka.MaterialSwitchPreference</item>
     </style>
 
     <style name="Preference.Rikka.Category.Material3" parent="@style/Preference.Category.Material">
@@ -78,7 +78,7 @@
         <item name="popupBackgroundRadius">8dp</item>
     </style>
 
-    <style name="Preference.Rikka.MateriaSwitchPreference" parent="Preference.Rikka.SwitchPreference.Material3">
+    <style name="Preference.Rikka.MaterialSwitchPreference" parent="Preference.Rikka.SwitchPreference.Material3">
         <item name="android:widgetLayout">@layout/m3_preference_widget_material_switch</item>
     </style>
 
